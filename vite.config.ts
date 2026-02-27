@@ -8,8 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // Replace "easy-way-portfolio" with your exact GitHub repo name
-  base: "/easy-way-portfolio/",
+  // No base needed for Cloudflare Pages — it serves from root "/"
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
