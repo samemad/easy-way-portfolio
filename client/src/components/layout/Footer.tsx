@@ -1,0 +1,49 @@
+export default function Footer() {
+  return (
+    <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+      <div className="container mx-auto px-4 md:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-2xl font-bold text-white mb-4">Easy Way</h3>
+            <p className="text-sm text-slate-400 max-w-xs leading-relaxed">
+              Established in 2022, Easy Way is a leading marketing agency specializing in product marketing and commercial cooperation with top Yemeni companies.
+            </p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <ul className="space-y-2">
+              <li><a href="#about" className="text-sm hover:text-primary transition-colors">About Us</a></li>
+              <li><a href="#services" className="text-sm hover:text-primary transition-colors">Services</a></li>
+              <li><a href="#partners" className="text-sm hover:text-primary transition-colors">Partners</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
+            <ul className="space-y-2 text-sm">
+              <li>Email: info@easyway-ye.com</li>
+              <li>Phone: +967 123 456 789</li>
+              <li>Address: Sana'a, Yemen</li>
+            </ul>
+          </div>
+        </div>
+        <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
+          <p className="text-sm text-slate-500">
+            &copy; {new Date().getFullYear()} Easy Way. All rights reserved.
+          </p>
+          <div className="flex space-x-4 mt-4 md:mt-0">
+            {/* Social links placeholders */}
+            <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+              <span className="text-xs">FB</span>
+            </div>
+            <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+              <span className="text-xs">IN</span>
+            </div>
+            <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
+              <span className="text-xs">TW</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
