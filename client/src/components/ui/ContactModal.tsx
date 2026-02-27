@@ -54,7 +54,7 @@ const content = {
     errorDesc: "Something went wrong. Please try again or email us directly at info@easyway-ye.com",
     tryAgain: "Try Again",
     close: "Close",
-    info: { email: "info@easyway-ye.com", phone: "+967 123 456 789", address: "Sana'a, Yemen" },
+    info: { email: "alsamemad775@gmail.com", phone: "+967 779809248", address: "Sana'a, Yemen" },
   },
   ar: {
     title: "لنعمل معاً",
