@@ -156,11 +156,20 @@ export default function Home() {
               {t.hero.description}
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white shadow-lg text-lg h-14 px-8">
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-white shadow-lg text-lg h-14 px-8"
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 {t.hero.cta1}
                 <ArrowRight className={`ml-2 h-5 w-5 ${lang === 'ar' ? 'rotate-180 mr-2 ml-0' : ''}`} />
               </Button>
-              <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 backdrop-blur-md text-lg h-14 px-8">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="bg-white/10 hover:bg-white/20 text-white border-white/30 backdrop-blur-md text-lg h-14 px-8"
+                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 {t.hero.cta2}
               </Button>
             </div>

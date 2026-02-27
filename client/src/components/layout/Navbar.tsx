@@ -18,9 +18,24 @@ export default function Navbar({ lang, t }: NavbarProps) {
         </Link>
         
         <div className="hidden md:flex items-center space-x-8 rtl:space-x-reverse">
-          <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">{t.about}</a>
-          <a href="#services" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">{t.services}</a>
-          <a href="#partners" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">{t.partners}</a>
+          <button 
+            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+          >
+            {t.about}
+          </button>
+          <button 
+            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+          >
+            {t.services}
+          </button>
+          <button 
+            onClick={() => document.getElementById('partners')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+          >
+            {t.partners}
+          </button>
           <Button className="bg-primary text-white hover:bg-primary/90 shadow-md">
             {t.contact}
           </Button>
