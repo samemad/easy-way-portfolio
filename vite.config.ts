@@ -8,6 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  // IMPORTANT for GitHub Pages:
+  // Replace "easy-way-portfolio" with your exact GitHub repo name
+  // If you deploy to a custom domain (e.g. easyway.com), change this to "/"
+  base: "/easy-way-portfolio/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

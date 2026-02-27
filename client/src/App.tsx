@@ -19,7 +19,12 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <ThemeProvider defaultTheme="light" storageKey="easy-way-theme">
+      {/*
+        THE FIX: attribute="class" tells next-themes to toggle the "dark"
+        class on <html>. Without it, .dark CSS variables in index.css
+        never activate — so dark mode looks broken even though it's "on".
+      */}
+      <ThemeProvider attribute="class" defaultTheme="light" storageKey="easy-way-theme">
         <TooltipProvider>
           <Toaster />
           <Router />
