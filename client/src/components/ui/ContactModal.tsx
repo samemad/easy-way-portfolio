@@ -3,21 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, Phone, Mail, MapPin, CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// HOW TO SET UP EMAILJS (free — no backend needed):
-//
-// 1. Go to https://www.emailjs.com and create a free account
-// 2. Add an Email Service (Gmail, Outlook, etc.) → copy the Service ID
-// 3. Create an Email Template with these variables:
-//      {{from_name}}, {{from_email}}, {{company}}, {{message}}
-//    → copy the Template ID
-// 4. Go to Account → API Keys → copy your Public Key
-// 5. Replace the three constants below with your real values
-// 6. Run:  npm install @emailjs/browser
-// ─────────────────────────────────────────────────────────────────────────────
-const EMAILJS_SERVICE_ID  = "service_b45xjy4";   // e.g. "service_abc123"
-const EMAILJS_TEMPLATE_ID = "template_96gduzn";  // e.g. "template_xyz456"
-const EMAILJS_PUBLIC_KEY  = "dKFtNZkVLu4WTgbZ1";   // e.g. "AbCdEfGhIjKlMnOp"
+
+const EMAILJS_SERVICE_ID  = "service_xpq6dne";   
+const EMAILJS_TEMPLATE_ID = "template_1puxyhc";  
+const EMAILJS_PUBLIC_KEY  = "x4JfsVyyzjqmRVjmf";   
 
 interface ContactModalProps {
   isOpen: boolean;
