@@ -4,7 +4,7 @@ import { X, Send, Phone, Mail, MapPin, CheckCircle, AlertCircle } from "lucide-r
 import { Button } from "@/components/ui/button";
 
 
-const EMAILJS_SERVICE_ID  = "service_kbh3vyg";   
+const EMAILJS_SERVICE_ID  = "service_6ho9z2q";   
 const EMAILJS_TEMPLATE_ID = "template_1puxyhc";  
 const EMAILJS_PUBLIC_KEY  = "x4JfsVyyzjqmRVjmf";   
 
@@ -43,7 +43,7 @@ const content = {
     errorDesc: "Something went wrong. Please try again or email us directly at info@easyway-ye.com",
     tryAgain: "Try Again",
     close: "Close",
-    info: { email: "easywaycontact.ye@gmail.com", phone: "+967 773611170", address: "Sana'a, Yemen" },
+    info: { email: "info@easyway.agency", phone: "+967 773611170", address: "Sana'a, Yemen" },
   },
   ar: {
     title: "لنعمل معاً",
@@ -64,7 +64,7 @@ const content = {
     errorDesc: "حدث خطأ ما. يرجى المحاولة مرة أخرى أو مراسلتنا على easywaycontact.ye@gmail.com",
     tryAgain: "حاول مرة أخرى",
     close: "إغلاق",
-    info: { email: "easywaycontact.ye@gmail.com", phone: "+967 773611170", address: "صنعاء، اليمن" },
+    info: { email: "info@easyway.agency", phone: "+967 773611170", address: "صنعاء، اليمن" },
   },
 };
 
