@@ -13,7 +13,7 @@ interface ContactModalProps {
   onClose: () => void;
   lang: "en" | "ar";
 }
-
+  
 interface FormState {
   name: string;
   email: string;
