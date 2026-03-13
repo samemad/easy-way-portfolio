@@ -4,16 +4,16 @@ import { X, Send, Phone, Mail, MapPin, CheckCircle, AlertCircle } from "lucide-r
 import { Button } from "@/components/ui/button";
 
 
-const EMAILJS_SERVICE_ID  = "service_6ho9z2q";   
-const EMAILJS_TEMPLATE_ID = "template_1puxyhc";  
-const EMAILJS_PUBLIC_KEY  = "x4JfsVyyzjqmRVjmf";   
+const EMAILJS_SERVICE_ID  = "service_x043zno";   
+const EMAILJS_TEMPLATE_ID = "template_ym833n5";  
+const EMAILJS_PUBLIC_KEY  = "8xwZsPfUvl-3JXl1E";   
 
 interface ContactModalProps {
   isOpen: boolean;
   onClose: () => void;
   lang: "en" | "ar";
 }
-  
+    
 interface FormState {
   name: string;
   email: string;
