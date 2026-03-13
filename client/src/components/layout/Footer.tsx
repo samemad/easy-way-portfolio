@@ -27,8 +27,8 @@ export default function Footer({ lang }: FooterProps) {
           <div className={isAr ? 'text-right' : 'text-left'}>
             <h4 className="text-lg font-semibold text-white mb-4">{isAr ? "اتصال" : "Contact"}</h4>
             <ul className="space-y-2 text-sm">
-              <li>{isAr ? "البريد الإلكتروني" : "Email"}: info@easyway-ye.com</li>
-              <li>{isAr ? "الهاتف" : "Phone"}: +967 123 456 789</li>
+              <li>{isAr ? "البريد الإلكتروني" : "Email"}: contact@easyway.agency</li>
+              <li>{isAr ? "الهاتف" : "Phone"}: +967 713611170</li>
               <li>{isAr ? "العنوان: صنعاء، اليمن" : "Address: Sana'a, Yemen"}</li>
             </ul>
           </div>
@@ -39,13 +39,13 @@ export default function Footer({ lang }: FooterProps) {
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0 rtl:space-x-reverse">
             <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
-              <span className="text-xs">FB</span>
+              <span className="text-xs">Facebook</span>
             </div>
             <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
-              <span className="text-xs">IN</span>
+              <span className="text-xs">Instagram</span>
             </div>
             <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
-              <span className="text-xs">TW</span>
+              <span className="text-xs">WhatsApp</span>
             </div>
           </div>
         </div>

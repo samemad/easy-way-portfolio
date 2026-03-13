@@ -43,7 +43,7 @@ const content = {
     errorDesc: "Something went wrong. Please try again or email us directly at info@easyway-ye.com",
     tryAgain: "Try Again",
     close: "Close",
-    info: { email: "contact@easyway.agency", phone: "+967 773611170", address: "Sana'a, Yemen" },
+    info: { email: "contact@easyway.agency", phone: "+967 713611170 ", address: "Sana'a, Yemen" },
   },
   ar: {
     title: "لنعمل معاً",
@@ -64,7 +64,7 @@ const content = {
     errorDesc: "حدث خطأ ما. يرجى المحاولة مرة أخرى أو مراسلتنا على contact@easyway.agency",
     tryAgain: "حاول مرة أخرى",
     close: "إغلاق",
-    info: { email: "contact@easyway.agency", phone: "+967 773611170", address: "صنعاء، اليمن" },
+    info: { email: "contact@easyway.agency", phone: "+967 713611170", address: "صنعاء، اليمن" },
   },
 };
 
