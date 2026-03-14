@@ -39,7 +39,7 @@ export default function Footer({ lang }: FooterProps) {
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0 rtl:space-x-reverse">
            <a 
-            href="https://www.facebook.com/easy.way"
+            href="https://www.facebook.com/profile.php?id=100079420779774"
             target="_blank"
             rel="noopener noreferrer"  
             className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors cursor-pointer">
