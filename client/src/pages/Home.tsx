@@ -502,7 +502,7 @@ export default function Home() {
       </section>
 
       {/* ── PARTNERS ── */}
-      <PartnersSection lang={lang} />
+     {/*<PartnersSection lang={lang} />*/}
 
       {/* ── CTA ── */}
       <section className="py-16 md:py-24 bg-slate-900 relative overflow-hidden">
@@ -523,7 +523,7 @@ export default function Home() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
             <motion.div
-              className="w-16 h-16 md:w-24 md:h-24 mx-auto bg-white rounded-2xl p-3 md:p-4 mb-6 md:mb-8 shadow-2xl"
+              className="w-20 h-20 md:w-28 md:h-28 mx-auto bg-white rounded-2xl p-3 md:p-4 mb-6 md:mb-8 shadow-2xl"
               whileHover={{ rotate: 10, scale: 1.1 }}
               animate={{ y: [0, -8, 0] }}
               transition={{ y: { duration: 3, repeat: Infinity, ease: "easeInOut" } }}

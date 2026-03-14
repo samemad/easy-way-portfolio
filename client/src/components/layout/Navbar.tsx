@@ -54,7 +54,7 @@ export default function Navbar({ lang, t, onContactClick }: NavbarProps) {
   const navLinks = [
     { id: "about", label: t.about },
     { id: "services", label: t.services },
-    { id: "partners", label: t.partners },
+   // { id: "partners", label: t.partners },
   ];
 
   return (
@@ -65,7 +65,7 @@ export default function Navbar({ lang, t, onContactClick }: NavbarProps) {
           {/* Logo — use span inside Link to avoid <a> nesting error */}
           <Link href="/">
             <span className="flex items-center gap-2 cursor-pointer transition-transform hover:scale-[1.02]">
-              <img src={logo} alt="Easy Way Logo" className="h-12 w-auto object-contain dark:invert-[0.1]" />
+              <img src={logo} alt="Easy Way Logo" className="h-14 w-auto object-contain dark:invert-[0.1]" />
             </span>
           </Link>
 
