@@ -99,8 +99,8 @@ export default function Navbar({ lang, t, onContactClick }: NavbarProps) {
             </AnimatePresence>
           </button>
         </div>
-      </nav>
-
+      </nav>      
+    
       {/* Mobile Drawer */}
       <AnimatePresence>
         {mobileOpen && (
